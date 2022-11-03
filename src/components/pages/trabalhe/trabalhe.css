@@ -1,0 +1,180 @@
+.trabalhe{
+
+}
+.trabalhe-header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trabalhe-header-h1{
+    color: rgb(227, 21, 176);
+    left: 20px;
+    position: relative;
+    width: 60%;
+}
+
+.trabalhe-header-container{
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    right: 20px;
+    text-decoration: none;
+}
+.trabalhe-header-container:hover .trabalhe-link{
+    color: rgb(32, 214, 255)
+  }
+  .trabalhe-header-container:hover .trabalhe-header-home-img{
+    background-image: url('../../images/blue-home.png');
+
+  }
+
+.trabalhe-header-home-img{
+    height: 35px;
+    width: 35px;
+    background-image: url('../../images/home.png');
+    background-size: cover;
+}
+.trabalhe-link{
+    color: white;
+    position: relative;
+    font-size: 20px;
+}
+.trabalhe-main{
+    width: 100%;
+    height: 720px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.trabalhe-main-h1{
+    text-align: center;
+    width: 900px;
+}
+.trabalhe-main-p{
+    font-size: 22px;
+    width: 900px;
+    text-align: center;
+}
+.trabalhe-form{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    background-color:  rgba(0, 0, 0, 0.532);
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.trabalhe-input{
+    width: 85%;
+    height: 50px;
+    font-size: 18px;
+}
+.trabalhe-button{
+    width: 85%;
+    height: 50px;
+    font-size: 24px;
+    background-color: #E315B0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    font-size: 24px;
+}
+.trabalhe-button:hover{
+    cursor: pointer;
+    top: 2px;
+}
+.trabalhe-select{
+    width: 85%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.249);
+    border: none;
+    color: rgba(255, 255, 255, 0.537);
+    font-size: 18px;
+    padding-left:10px;
+}
+.trabalhe-option{
+    background-color: rgba(0, 0, 0, 0.249);
+
+}
+@media screen and (max-width: 910px){
+    .trabalhe-header-container{
+        width: 40px;
+    }
+    .trabalhe-link{
+        display: none;
+    }
+    .trabalhe-main-h1{
+        width: 90%;
+    }
+    .trabalhe-main-p{
+        width: 90%;
+    }
+    .trabalhe-form{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 590px){
+    .trabalhe-main-h1{
+        font-size: calc(19px + 1vw);
+    }
+    .trabalhe-main-p{
+        font-size: calc(16px + 1vw);
+    }
+    .trabalhe-input{
+        width: 90%;
+    }
+    .trabalhe-select{
+        width: 90%;
+    }
+    .trabalhe-button{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 425px){
+    .trabalhe-main-h1{
+        font-size: calc(16px + 1vw);
+    }
+    .trabalhe-main-p{
+        font-size: calc(13px + 1vw);
+        letter-spacing: 0.5px;
+    }
+    .trabalhe-form-h1{
+        font-size: calc(21px + 1vw);
+    }
+    .trabalhe-input{
+        width: 95%;
+    }
+    .trabalhe-select{
+        width: 95%;
+    }
+    .trabalhe-button{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 360px){
+    .trabalhe-main-h1{
+        font-size: calc(12px + 1vw);
+        letter-spacing: 0.2px;
+    }
+    .trabalhe-main-p{
+        font-size: calc(10px + 1vw);
+    }
+    .trabalhe-form-h1{
+        font-size: calc(20px + 1vw);
+    }
+}
